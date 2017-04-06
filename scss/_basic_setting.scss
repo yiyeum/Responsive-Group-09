@@ -1,0 +1,34 @@
+body {
+  background-image: url(../images/bg.jpg);
+  font-family: $roboto-con;
+}
+
+main {
+	width: 960px;
+	height: auto;
+	margin: 30px auto 50px;
+	overflow: auto;
+
+	@media(max-width: $large){
+    width:95%;	
+  }
+
+}
+
+section {
+	width: 75%;
+	float: left;
+
+	@media(max-width: $medium){
+    width:100%;	
+  }
+
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+}

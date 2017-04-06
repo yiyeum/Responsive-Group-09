@@ -1,0 +1,20 @@
+footer {
+	height: 35px;
+	clear: both;
+	text-align: center;
+	background-color: $dark-blue;
+
+	p {
+		color: #fff;
+		line-height: 35px;
+	}
+
+	@media(max-width: $small){
+    height: 70px;
+    padding: 15px;
+
+    p {
+    	line-height:1.2;
+    }//end of p
+  }	//end of media
+}//end of footer
